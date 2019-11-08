@@ -1,0 +1,65 @@
+header{
+   
+    background-color: #4d0e2d;
+    height: 80px;
+    font-family: Sansation;
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: static;
+    
+
+}
+ nav>ul{
+     display: flex;
+     float: right;
+     padding-right: 20px;
+   list-style-type: none;
+    margin-right: 50px;
+    }
+    li{
+        padding-right: 20px;
+        text-decoration: none;
+    }
+li>a:hover{
+    background-color:none;
+    color: darkblue
+}
+.active{
+    background-color: none;
+    color: deeppink;
+    font-size: 30px;
+    font-family:  'Timmana', sans-serif;
+}
+.current{
+    background-color:none;
+    color: deeppink;
+    font-size: 30px;
+    font-family:  'Timmana', sans-serif;
+}
+.now{
+    background-color: none;
+    color: deeppink;
+    font-size: 30px;
+    font-family:  'Timmana', sans-serif;
+
+
+}
+h2{
+    
+        text-align: center;
+        text-decoration-line: underline;
+        border-style: inset;
+        font-size: 30px;
+        font-family:  'Timmana', sans-serif;
+}
+.Contacts{
+    text-align:center;
+    font-family:  'Timmana', sans-serif;
+    font-size:30px;
+    background-image: url("https://bit.ly/2pzpg7g");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
