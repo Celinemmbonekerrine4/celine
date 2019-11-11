@@ -63,3 +63,12 @@ h2{
     background-repeat: no-repeat;
     background-size: cover; 
 }
+.icons{
+    text-align: center;
+    font-size: 70px;
+}
+
+.icons>i:hover{
+    color: blue;
+    font-size: 100px;
+}
