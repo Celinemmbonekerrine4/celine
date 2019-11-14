@@ -42,7 +42,7 @@ li>a:hover{
 div{
     font-size: 30px;
     font-family:  'Timmana', sans-serif;
-    background-image: url("https://i.pinimg.com/originals/f3/d5/a7/f3d5a725b54407865bebafa69eb404ac.jpg");
+    background-image: url("https://bit.ly/2NLVW6Q");
     background-repeat: no-repeat;
     background-size:  cover;
     
@@ -59,12 +59,13 @@ justify-content: space-around;
 }
 .trending{
 display:flex;
+overflow: hidden;
 }
 h2{
 text-align: center;
 text-decoration-line: underline;
 border-style: inset;
-font-size: 30px;
+font-size: 40px;
 padding-top: 50px;
 font-family: 'Lakki Reddy', cursive;
 }
@@ -76,21 +77,21 @@ height:450;
 margin-right: 2%;
 border-style: outset;
 background-color: aliceblue;
-box-shadow: 3px 3px 5px pink;
+box-shadow: 3px 3px 5px palegreen;
 border: 1px transparent;
 }
 .second{
 margin-right: 2%;
 border-style: outset;
 background-color: aliceblue;
-box-shadow: 3px 3px 5px pink;
+box-shadow: 3px 3px 5px palegreen;
 border: 1px transparent;
 }
 .third{
 margin-right: 2%;
 border-style: outset;
 background-color: aliceblue;
-box-shadow: 3px 3px 5px pink;
+box-shadow: 3px 3px 5px palegreen;
 border: 1px transparent;
 }
 .forth img{
@@ -101,11 +102,15 @@ height:450px;
 margin-right:2%;
 border-style: outset;
 background-color: aliceblue;
-box-shadow: 3px 3px 5px pink;
+box-shadow: 3px 3px 5px palegreen;
 border: 1px transparent;
 }
-.footwear{
+.fabrics{
     display:flex;
+}
+.one img{
+    width: 450px;
+    height: 450;
 }
 
 .one{
@@ -120,8 +125,8 @@ border: 1px transparent;
 
 
 .two img{
-    width:300px;
-    height:300px;
+    width:450px;
+    height:450px;
 }
 .two{
     margin-top: 3%;
@@ -145,4 +150,7 @@ border: 1px transparent;
     background-color: blanchedalmond;
     box-shadow:3px 3px 5px palegreen;
     box-shadow:1px transparent;   
+}
+.four{
+    display: inline;
 }

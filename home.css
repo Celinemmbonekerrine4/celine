@@ -1,5 +1,5 @@
 body{
-    background-image:url("https://bit.ly/36HdJDs");
+    background-image:url("https://bit.ly/2Kftat1");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -7,6 +7,8 @@ body{
     padding:20px; 
     font-size: 30px;
     font-family: 'Timmana', sans-serif;
+    overflow: hidden;
+    
     
 }
 header{
@@ -18,7 +20,6 @@ header{
     font-size: 21px;
     text-decoration: none;
     text-transform: uppercase;
-    overflow: hidden;
     position: static;
     
 
@@ -62,12 +63,18 @@ li>a:hover{
     flex-direction: column;
     justify-content: space-around;
 }
-.outfits img{
-        width:550px;
-        height: 700px;
-}
+
 .trending{
     display:flex;
+}
+h1{
+    color: rgb(236, 227, 230);
+    font-size: 500%;
+    text-align: center;
+    padding-bottom: 50%;
+    box-shadow:lemonchiffon;
+
+
 }
 h2{
     text-align: center;
