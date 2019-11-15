@@ -25,7 +25,8 @@ header{
     }
 li>a:hover{
     background-color:none;
-    color: darkblue
+    color: rgba(255,250,0,1);
+}
 }
 .active{
     background-color: none;
